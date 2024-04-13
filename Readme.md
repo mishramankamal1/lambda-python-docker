@@ -22,3 +22,6 @@
     docker push <account>.dkr.ecr.<region>.amazonaws.com/<repository-name>:latest
     ```
     Replace `<region>` with your AWS region, `<account>` with your AWS account ID, and `<repository-name>` with the name of your Docker repository.
+
+5. **Upload the data to your s3 bucket**: Upload the data file to your s3 bucket
+
