@@ -21,7 +21,6 @@ def lambda_handler(event, context):
     except Exception as err:
         print(err)
         
-    # TODO implement
     return {
         'statusCode': 200
     }
